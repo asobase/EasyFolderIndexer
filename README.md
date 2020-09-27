@@ -30,3 +30,4 @@ Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 # Improvements to be made
 * Dynamically get filter categories so the application's scope can be broader.
 * Dynamically get all tags at run-time and update the tool tip with them.
+* Add a fuilter builder type feature that allows for more complex searching - e.g. y but NOT x
