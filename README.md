@@ -1,5 +1,8 @@
 # Tabletop Folder Indexer
 Needed a way to parse through the massive collection of tabletop pdfs I've accumulated over the years.
+
+Made in about an hour with little python experience so it isn't the most performant or the prettiest to look at.
+
 Each game's subdirectory has a info.json file using the following format:
 ```json
 {
