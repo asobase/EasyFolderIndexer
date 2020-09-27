@@ -23,3 +23,6 @@ Each game's subdirectory has a info.json file using the following format:
         }
     ]
 }
+```
+
+Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
