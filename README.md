@@ -26,3 +26,7 @@ Each game's subdirectory has a info.json file using the following format:
 Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
 ![Screenshot](python_WknjX34hs7.png)
+
+# Improvements to be made
+* Dynamically get filter categories so the application's scope can be broader.
+* Dynamically get all tags at run-time and update the tool tip with them.
