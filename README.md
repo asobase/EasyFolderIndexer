@@ -1,8 +1,9 @@
-# Tabletop Folder Indexer
-Needed a way to parse through the massive collection of tabletop pdfs I've accumulated over the years.
-Made in about an hour with little python experience so it isn't the most performant or the prettiest to look at.
+# Folder Indexer
+An easy way to dynamically parse through your folders. Requires a .json file in each subdirectory with details about it. Program will pull each key in the json files and add them as categories that you can filter by.
 
-Each game's subdirectory has a info.json file using the following format:
+Designed to be used to sort through Tabletop RPG PDFs, but can be used for anything.
+
+Example usage
 ```json
 {
     "games": [
@@ -26,8 +27,3 @@ Each game's subdirectory has a info.json file using the following format:
 Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
 ![Screenshot](python_WknjX34hs7.png)
-
-# Improvements to be made
-* Dynamically get filter categories so the application's scope can be broader.
-* Dynamically get all tags at run-time and update the tool tip with them.
-* Add a fuilter builder type feature that allows for more complex searching - e.g. y but NOT x
