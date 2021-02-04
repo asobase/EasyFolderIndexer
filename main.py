@@ -150,8 +150,7 @@ def main():
     matches = []
 
     # try and load json files from the last folder the user loaded
-    root_nodes = []
-    matches, root_nodes = cache_and_update(window['FolderLocation'].get(), window['FilterCategory'])
+    matches = cache_and_update(window['FolderLocation'].get(), window['FilterCategory'])
 
     # current built filter
     current_filter = []
