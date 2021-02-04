@@ -1,5 +1,5 @@
 # Folder Indexer
-An easy way to dynamically parse through your folders. Requires a .json file in each subdirectory with details about it. Program will pull each key in the json files and add them as categories that you can filter by.
+An easy one-file program to dynamically parse through your folders. Requires a .json file in each subdirectory with details about it. Program will pull each key in the json files and add them as categories that you can filter by.
 
 Designed to be used to sort through Tabletop RPG PDFs, but can be used for anything.
 
@@ -27,3 +27,7 @@ Example usage
 Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
 ![Screenshot](FolderIndexerScreenshot.png)
+
+# Future Improvements
+
+Next time I work on this I plan to move it to a different GUI framework, then clean up the code here and there by abstracting the JSON utility that's re-used a bunch.
