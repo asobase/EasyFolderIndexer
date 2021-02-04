@@ -38,7 +38,7 @@ def load_last_used_directory():
 
 # gets all the root labels in a json file
 # e.g.  "a": { "b": "1", "c": "2" }, "z": "1"
-#       would return ["a", "z"]
+#       would return ["z", "c", "b", "a"]
 # used to dynamically build filter categories
 def get_root_keys(json_data):
     res = []
