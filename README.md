@@ -26,4 +26,4 @@ Example usage
 ```
 Made using [PySimpleGUI](https://pypi.org/project/PySimpleGUI/)
 
-![Screenshot](python_WknjX34hs7.png)
+![Screenshot](FolderIndexerScreenshot.png)
